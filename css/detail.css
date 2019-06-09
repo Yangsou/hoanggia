@@ -251,6 +251,9 @@ p {
 }
 
 /* body */
+html, body {
+    overflow-x: hidden;
+}
 body.hidden-scroll {
     overflow-y: hidden;
 }
