@@ -1397,73 +1397,13 @@ p.para-w3-agile {
 .w3layouts-contact-form-top p{
 	margin:2em 0;
 }
-.agileinfo-contact-form-grid{
-    margin: 2em 0 0 0;
-}
-.agileinfo-contact-form-grid input[type="text"]{
-    display: inline-block;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #444;
-    width: 100%;
-	float:left;
-    outline: none;
-    padding: 8px 15px 8px 0px;
-    font-size: .9em;
-    color: #777;
-    margin-bottom: 1.5em;
-    font-family: 'Raleway', sans-serif;
-}
-.agileinfo-contact-form-grid input[type="email"] {
-    display: inline-block;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #000;
-    width: 100%;
-    outline: none;
-    padding: 8px 15px 8px 0px;
-    font-size: .9em;
-    color: #777;
-    margin-bottom: 1.5em;
-    font-family: 'Raleway', sans-serif;
-}
-.agileinfo-contact-form-grid textarea {
-    background: none;
-    border: none;
-    border-bottom: 1px solid #000;
-    width: 100%;
-    display: block;
-    height: 150px;
-    outline: none;
-    font-size: .9em;
-    color: #777;
-    resize: none;
-    padding: 8px 15px 8px 0px;
-    margin-bottom: 1em;
-    font-family: 'Raleway', sans-serif;
-}
-.agileinfo-contact-form-grid button.btn1{
-    color: #FFFFFF;
-    font-size: 15px;
-    text-decoration: none;
-    padding: 13px;
-    background: #008BFF;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-align: center;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    font-family: 'Raleway', sans-serif;
-}
+
 .contact-form-left {
     padding-right: 10em;
 }
-.agileinfo-contact-form-grid button.btn1:hover {
-    background: #232323;
-    color: #fff;
+
+#map {
+	height: 400px;
 }
 .w3agile-map iframe{
     border: none;
