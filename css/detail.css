@@ -306,12 +306,12 @@ body.hidden-scroll {
 
 .sticky .nav-link.active,
 .sticky .nav-link:hover {
-    color: #2273f8
+    color: #4286f4
 }
 
 .buy-btn.nav-link {
     background-color: #fff;
-    color: #2273f8;
+    color: #4286f4;
     padding: 10px 20px;
     border-radius: 30px;
     font-weight: 700;
@@ -324,7 +324,7 @@ body.hidden-scroll {
 }
 
 .sticky .buy-btn {
-    background-color: #2273f8;
+    background-color: #4286f4;
     color: #fff;
 }
 
@@ -369,8 +369,8 @@ body.hidden-scroll {
 }
 
 .caption-content button {
-    background-color: #131a48;
-    color: #fff;
+    background-color: #ffffff;
+    color: #4286f4;
     padding: 12px 24px;
     border-radius: 30px;
     display: inline-block;
@@ -381,7 +381,7 @@ body.hidden-scroll {
 
 .caption-content button:hover {
     background-color: #fff;
-    color: #2273f8;
+    color: #4286f4;
 }
 
 .caption-content button i {
@@ -508,7 +508,7 @@ body.hidden-scroll {
     width: 100%;
     height: 50px;
     color: #fff;
-    background-color: #2273f8;
+    background-color: #4286f4;
     border: 0;
     border-radius: 4px;
     cursor: pointer;
@@ -526,19 +526,26 @@ body.hidden-scroll {
 #about-area {
     padding: 100px 0;
 }
-
+.about-area__item + .about-area__item {
+    margin-top: 24px;
+}
 .about-img img {
     border-radius: 10px;
+    width: 100%;
 }
 
-.about-content h2 {
-    font-weight: 800;
+.about-content h2,
+.about-content p {
+    /* font-weight: 800; */
     margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 27px;
 }
 
 .about-content h4 {
     font-weight: 600;
-    color: #2273f8;
+    color: #4286f4;
 }
 
 .about-content ul {
@@ -546,14 +553,16 @@ body.hidden-scroll {
 }
 
 .about-content ul li {
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 27px;
     padding: 3px 0;
     font-size: 14px;
-    line-height: 24px
 }
 
 .about-content li i {
-    color: #2273f8;
+    color: #4286f4;
 }
 
 /*-------------------------------------------------------------------------------------
@@ -590,7 +599,7 @@ body.hidden-scroll {
     display: inline-block;
     font-size: 30px;
     margin: 0 0 15px;
-    color: #2273f8;
+    color: #4286f4;
     padding: 20px;
     border-radius: 50%;
     -webkit-box-shadow: 0 4px 15px 0 #ccc;
@@ -602,7 +611,7 @@ body.hidden-scroll {
 
 .feature-single:hover i {
     color: #fff;
-    background-color: #2273f8
+    background-color: #4286f4
 }
 
 /*-------------------------------------------------------------------------------------
@@ -644,7 +653,7 @@ body.hidden-scroll {
 
 .video-player a {
     font-size: 35px;
-    color: #2273f8;
+    color: #4286f4;
     border-radius: 50%;
     display: inline-block;
     background-color: #fff;
@@ -866,7 +875,7 @@ body.hidden-scroll {
 }
 
 .core-feat-single i {
-    color: #2273f8;
+    color: #4286f4;
     font-size: 20px;
     display: inline-block;
 }
@@ -921,11 +930,11 @@ body.hidden-scroll {
     font-size: 30px;
     width: 80px;
     height: 80px;
-    border: 2px dashed #2273f8;
+    border: 2px dashed #4286f4;
     border-radius: 50%;
     line-height: 80px;
     padding: 0 24px;
-    color: #2273f8;
+    color: #4286f4;
     margin: 15px 0 0;
 }
 
@@ -1015,7 +1024,7 @@ body.hidden-scroll {
 }
 
 .newsletter-form__btn--submit {
-    background-color: #2273f8;
+    background-color: #4286f4;
     color: #fff;
 }
 
@@ -1049,7 +1058,7 @@ body.hidden-scroll {
 
 .product-single h4 {
     font-weight: 800;
-    color: #2273f8;
+    color: #4286f4;
     margin: 0 0 20px;
 }
 
@@ -1063,13 +1072,13 @@ body.hidden-scroll {
     display: inline-block;
     padding: 8px 16px;
     color: #fff;
-    background-color: #2273f8;
+    background-color: #4286f4;
     font-weight: 600;
     border-radius: 30px;
 }
 
 .product-single a:hover {
-    background-color: #0857d8;
+    background-color: #303030;
 }
 
 /*-------------------------------------------------------------------------------------
@@ -1172,7 +1181,7 @@ body.hidden-scroll {
 #accordion .card,
 #accordion .card-header.active,
 #accordion .card-header:hover {
-    background-color: #2273f8;
+    background-color: #4286f4;
 }
 
 #accordion .card-header a:after {
@@ -1197,7 +1206,7 @@ body.hidden-scroll {
 
 #accordion .collapse.show,
 #accordion .card-body {
-    background-color: #2273f8;
+    background-color: #4286f4;
     color: #fff;
     border-radius: 0 0 10px 10px;
     -webkit-transition: 0.5s;
@@ -1247,8 +1256,8 @@ body.hidden-scroll {
 
 .contact-info-single i {
     font-size: 30px;
-    color: #2273f8;
-    border: 1.2px solid #2273f8;
+    color: #4286f4;
+    border: 1.2px solid #4286f4;
     border-radius: 4px;
     width: 55px;
     height: 55px;
@@ -1274,7 +1283,7 @@ body.hidden-scroll {
 }
 
 .contact-form button {
-    background-color: #2273f8;
+    background-color: #4286f4;
     border: 0;
     color: #fff;
     padding: 10px 30px;
@@ -1312,7 +1321,7 @@ body.hidden-scroll {
 
 #footer {
     padding: 65px 0 0;
-    background-color: #1c1c1c;
+    background-color: #303030;
     overflow: hidden
 }
 
@@ -1328,7 +1337,7 @@ body.hidden-scroll {
 
 .footer-social-icons ul li a {
     display: block;
-    background-color: #2273f8;
+    background-color: #4286f4;
     color: #fff;
     border-radius: 50%;
     width: 45px;
@@ -1340,7 +1349,7 @@ body.hidden-scroll {
 
 .footer-social-icons ul li a:hover {
     background-color: #fff;
-    color: #2273f8;
+    color: #4286f4;
 }
 
 #footer p {
@@ -1350,7 +1359,7 @@ body.hidden-scroll {
 }
 
 #footer p a {
-    color: #2273f8
+    color: #4286f4
 }
 
 #footer p a:hover {
